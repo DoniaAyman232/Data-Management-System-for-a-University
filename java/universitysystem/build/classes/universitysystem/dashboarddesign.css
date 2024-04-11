@@ -1,0 +1,46 @@
+.top-form, .semi-top-form, .card, .table-view {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #ffffff; /* White border color */
+    -fx-opacity: 0.7; /* Adjust transparency */
+}
+
+.nav-form, .table-view .column-header {
+    -fx-background-color: #28798F; /* New color for nav form and table headers */
+    -fx-border-color: #28798F; /* New border color for nav form */
+    -fx-opacity: 0.7; /* Adjust transparency */
+}
+.white-bg{
+    -fx-background-color:#fff;
+    -fx-background-radius:8px;
+}
+.shadow{
+    -fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.4), 6,0,0,0);
+}
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:15px;
+    -fx-font-family:"Arial";
+    -fx-alignment:CENTER-LEFT;
+}
+
+.textfield {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #ffffff; /* White border color */
+    -fx-opacity: 0.7; /* Adjust transparency */
+}
+
+.insert-btn, .add-btn, .update-btn, .delete-btn {
+    -fx-background-color: #28798F; /* New color for buttons */
+    -fx-text-fill: #000000; /* Black text color for buttons */
+}
+
+.insert-btn {
+    -fx-background-color: transparent;
+    -fx-border-color: #28798F; /* New border color for transparent button */
+}
+
+.add-btn, .delete-btn, .update-btn {
+    -fx-border-color: #28798F; /* New border color for colored buttons */
+}
